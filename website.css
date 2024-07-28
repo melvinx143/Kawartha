@@ -1,0 +1,123 @@
+.nav-link
+{
+color:aliceblue;
+font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 22px;
+}
+.navbar-brand
+{
+    font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 42px;
+}
+.offcanvas
+{
+    background-color:transparent;
+    color:white;
+    font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.offcanvas-title
+{
+    display:none;
+}
+#carouselExampleIndicators
+{
+    margin-top:4rem;
+}
+#home,#service,#testimony
+{
+    display:flex;
+    flex-direction: column;
+    font-family: "Asul", serif;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: normal;
+text-align: center;
+}
+#contactus
+{
+  display:flex;
+  flex-direction: column;
+  font-family: "Asul", serif;
+  font-weight: 400;
+  font-size: 19px;
+  font-style: normal;
+}
+#part2home,#part2service,#part2testimony,#part2contactus
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-bottom:1rem;
+    flex-wrap: wrap;
+}
+#titlehome
+{
+  font-family: "Asul", serif;
+  font-weight: 400;
+  color:rgb(22,22,22);
+  font-style: normal;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 1.5rem;
+}
+#part1home,#part1service,#part1testimony,#part1contactus
+{
+    margin-top: 6rem;
+    margin-bottom:6rem;
+}
+#part3service
+{
+    width:200px;
+    align-self: center;
+    margin-top:4rem;
+}
+#part2contactus
+{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+}
+#contactingus
+{
+  font-family: "Asul", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 33px;
+  text-underline-offset: 1.5rem;
+}
+#accordions
+{
+  text-align: center;
+  align-items: center;
+  height: 600px;
+  font-size: 19px;
+}
+body{
+  scroll-behavior: smooth;
+  z-index: -1;
+  box-sizing: border-box;
+  margin:0;padding:0;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color:#ffffff;
+  padding:20px;
+  font-size: 16px;
+}
+#timeofweek
+{
+  color:green;
+}
