@@ -115,35 +115,7 @@ border:5px solid green;
     font-style: normal;
     margin-top:1rem;
 }
-@media(max-width:768px)
-{
-  #formtosubmit{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  width:200px;
-  }
- #maps
-  {
-  display:none;
-  }
-  #contactus
-  {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-.mySwiper
-{
-  width:300px;
-}
 
-  #part2testimony
-  {
-    display:flex;
-    flex-direction: column;
-  }
-}
 @media((max-width:768px))
 {
   #formtosubmit{
